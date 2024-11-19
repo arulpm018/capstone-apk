@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Title of the document -->
+    <TextView
+        android:id="@+id/documentTitle"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Document Title" />
+
+    <!-- URL of the document -->
+    <TextView
+        android:id="@+id/documentUrl"
+        android:textSize="14sp"
+        android:textColor="#1E88E5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Document URL" />
+
+    <!-- Checkbox to select the document -->
+    <CheckBox
+        android:id="@+id/documentCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
